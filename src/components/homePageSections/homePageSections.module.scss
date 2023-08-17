@@ -1,0 +1,165 @@
+@import 'styles/vars';
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 130%;
+  color: #000;
+  text-align: center;
+
+  @media screen and (min-width: 1280px) {
+    position: inherit;
+    margin-top: 0px;
+    // width: 1px;
+    // height: 1px;
+    // margin: -1px;
+    // padding: 0;
+    // overflow: hidden;
+    // border: 0;
+    // clip: rect(0 0 0 0);
+  }
+}
+
+.textWrap {
+  @media screen and (min-width: 1280px) {
+    width: 100%;
+    padding: 25px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.textWrapSecond {
+  @media screen and (min-width: 1280px) {
+    flex: 1;
+  }
+}
+
+.textWrapThird {
+  @media screen and (min-width: 1280px) {
+    max-width: 490px;
+    padding: 121px 0;
+  }
+
+  @media screen and (min-width: 1920px) {
+    max-width: 466px;
+  }
+}
+
+.textWrapFourth {
+  @media screen and (min-width: 1280px) {
+    padding-top: 58px;
+  }
+}
+
+.text {
+  font-size: 16px;
+  line-height: 150%;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 18px;
+    width: 505px;
+    text-align: center;
+    // text-align: justify;
+  }
+}
+
+.text2 {
+  font-size: 16px;
+  line-height: 150%;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 35px;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 18px;
+    width: 505px;
+    text-align: center;
+    // text-align: justify;
+  }
+}
+
+.btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgWrap {
+  max-width: 380px;
+
+  @media screen and (max-width: 1279px) {
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin: 0 auto;
+  }
+}
+
+.imgWrapSecond {
+  max-width: 375px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 1280px) {
+    max-width: 450px;
+    flex: 1;
+  }
+}
+
+.imgWrapThird {
+  @media screen and (max-width: 1279px) {
+    max-width: 369px;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 1280px) {
+    position: absolute;
+    top: 15%;
+    right: 0;
+  }
+}
+
+.addImg {
+  max-width: 369px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
+}
+
+.imgWrapFourth {
+  max-width: 450px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 1280px) {
+    grid-row: 3/-2;
+  }
+}
+
+.imgThird {
+  @media screen and (min-width: 1200px) {
+    max-width: 525px;
+  }
+}
+
+.SectionBg {
+  @media screen and (min-width: 1200px) {
+    background-image: url(../../images/bgDesk.png);
+  }
+}
+
+.BG {
+  background: var(--color-bcg);
+}

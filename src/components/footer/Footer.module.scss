@@ -1,0 +1,85 @@
+@import 'styles/vars';
+
+.footer {
+  padding: 48px 16px 24px;
+  background: var(--color-footer);
+  text-align: center;
+  color: var(--color-white);
+
+  @media screen and (min-width: 1280px) {
+    padding: 32px 0px 24px;
+  }
+}
+
+.footer div:not(:last-child) {
+  margin-bottom: 24px;
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 16px;
+  }
+}
+
+.plus18 {
+  width: 43px;
+  height: 43px;
+  margin: 0 auto;
+}
+
+.disclaimer {
+  font-size: 14px;
+  font-weight: 700;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+  }
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.link {
+  position: relative;
+}
+
+.link:not(:first-child)::before {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 90%;
+  right: 100%;
+  bottom: 0;
+  margin-right: 4px;
+  background: var(--color-white);
+}
+
+.link > button {
+  color: #ccff33;
+  background-color: transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+
+  @include Animation(text-decoration);
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+.footerP {
+  color: #f8f5ed;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footerFont {
+  color: #f8f5ed;
+}

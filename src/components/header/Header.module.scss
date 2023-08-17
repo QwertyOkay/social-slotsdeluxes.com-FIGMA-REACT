@@ -1,0 +1,32 @@
+@import 'styles/vars';
+
+.header {
+  background-color: #50806b;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navBlock {
+  min-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+
+  @media screen and (min-width: 1280px) {
+    column-gap: 50px;
+  }
+}
+
+.link {
+  display: inline-block;
+  color: #ccff33;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.notice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}

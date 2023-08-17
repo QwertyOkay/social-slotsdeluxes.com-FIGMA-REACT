@@ -1,0 +1,91 @@
+@import 'styles/vars';
+
+.btn {
+  position: relative;
+  min-width: 100px;
+  padding: 0.4rem 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  user-select: none;
+  vertical-align: middle;
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: var(--color-white);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  cursor: pointer;
+  background: var(--color-accent);
+  color: var(--color-white);
+
+  @include Animation(box-shadow);
+
+  &:hover,
+  &:focus {
+    box-shadow: rgba(0, 0, 0, 0.35) 10px -25px 18px -14px inset;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 1.5rem;
+    width: 10px;
+    height: 45px;
+  }
+}
+
+.btnHero {
+  composes: btn;
+
+  padding: 0.6rem 1.2rem;
+  font-size: 2rem;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 3rem;
+  }
+}
+
+.btnForm {
+  composes: btn;
+  width: 100%;
+}
+
+.btnContact {
+  composes: btn;
+
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  background: var(--color-accent-variant);
+
+  @media screen and (min-width: 1280px) {
+    margin-top: 40px;
+  }
+}
+
+.btnYes {
+  composes: btn;
+}
+
+.btnNo {
+  composes: btn;
+
+  background: var(--color-accent-variant);
+  color: var(--color-bcg);
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 30%, 0 0;
+  }
+  50% {
+    background-position: 100% 70%, 0 0;
+  }
+  100% {
+    background-position: 0% 30%, 0 0;
+  }
+}

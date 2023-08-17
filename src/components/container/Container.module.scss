@@ -1,0 +1,46 @@
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 1280px) {
+    width: 1200px;
+  }
+}
+
+.containerMain {
+  composes: container;
+  position: relative;
+
+  @media screen and (max-width: 1279px) {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 1400px;
+  }
+}
+
+.containerMainSecond {
+  composes: containerMain;
+
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 297px;
+  }
+}
+
+.containerMainFourth {
+  composes: containerMain;
+
+  @media screen and (min-width: 1280px) {
+    display: grid;
+    grid-template-columns: 32% 53%;
+    gap: 15%;
+  }
+}
