@@ -5,9 +5,9 @@ import styles from './Header.module.scss';
 function Header() {
   return (
     <>
+      <Burger />
       <header className={styles.header}>
         <Container>
-          <Burger></Burger>
           <nav className={styles.navBlock}>
             <a href="#welcome" className={styles.link}>
               Welcome
