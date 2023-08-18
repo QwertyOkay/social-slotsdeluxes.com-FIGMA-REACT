@@ -7,7 +7,7 @@ import styles from './homePageSections.module.scss';
 
 function Fourth() {
   return (
-    <Section variant="fouth" id="about">
+    <Section variant="fouth" id="about" className={styles.about}>
       <Container variant="containerMainFourth">
         <div className={styles.btnFourth}>
           <img className={styles.imgFourth} src={fourthImage} alt="The Game" />

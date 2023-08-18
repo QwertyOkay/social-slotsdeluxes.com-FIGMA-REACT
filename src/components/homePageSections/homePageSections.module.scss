@@ -174,10 +174,8 @@
   padding: 20px;
 }
 
-#fourth,
-#about {
+#fourth {
   background: #fdf3d4;
-  padding: 25px;
 }
 
 .imgFourth {
@@ -194,4 +192,8 @@
   font-weight: 700;
   line-height: 128.6%; /* 36.008px */
   letter-spacing: 1.12px;
+}
+
+#about {
+  padding: 25px;
 }
