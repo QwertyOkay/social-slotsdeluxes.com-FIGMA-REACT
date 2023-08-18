@@ -13,14 +13,12 @@ function Third() {
         <div className={styles.textWrapThird}>
           <h1 className={styles.title}>Download slots</h1>
           <p className={styles.text2}>
-            Irrespective of your skill level, our application adapts seamlessly
-            to your needs. Through our mobile app, you can maintain your link to
-            the market. Whether you're an experienced participant or a newcomer
-            to the realm of slot games, you'll discover the ideal game that
-            aligns with your proficiency and sustains your involvement for
-            extended periods.
+            Our application works well for everyone, regardless of your skill
+            level. By using our mobile app, you can stay connected to the
+            market. Whether you're new to slot games or you've been playing for
+            a while, you'll discover the right game that suits your expertise
+            and keeps you engaged for a long time.
           </p>
-          <GoogleButton />
         </div>
         {/* <div className={styles.btn}>
           <GoogleButton />

@@ -1,17 +1,17 @@
 @import 'styles/vars';
 
 .section {
-  background-image: url(../../images/bg.png);
+  // background-image: url(../../images/bg.png);
   background-size: cover;
   @media screen and (min-width: 1200px) {
-    background-image: url(../../images/bgDesk.png);
+    // background-image: url(../../images/bgDesk.png);
     background-position: center;
   }
 }
 
 .third {
   composes: section;
-  background: #d7dbcf;
+  background: #f86f41;
 
   // @media screen and (max-width: 1279px) {
   //   padding: 60px 0 60px 0;
@@ -21,10 +21,11 @@
 
 .second {
   composes: section;
-  background: var(--color-bcg);
+  background-image: url(../../images/bgSecond.png);
 
   @media screen and (max-width: 1279px) {
-    padding: 60px 0 60px 0;
+    padding: 0px 0 60px 0;
+    margin-top: 195px;
   }
   @media screen and (min-width: 1280px) {
     padding: 120px 0;

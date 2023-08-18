@@ -3,10 +3,10 @@
 .title {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 38px;
   line-height: 130%;
-  color: #000;
+  color: #fff;
   text-align: center;
 
   @media screen and (min-width: 1280px) {
@@ -59,7 +59,7 @@
 .text {
   font-size: 16px;
   line-height: 150%;
-  color: #000;
+  color: #fff;
   font-weight: 600;
   text-align: center;
 
@@ -67,6 +67,7 @@
     font-size: 18px;
     width: 505px;
     text-align: center;
+    color: #000;
     // text-align: justify;
   }
 }
@@ -74,7 +75,7 @@
 .text2 {
   font-size: 16px;
   line-height: 150%;
-  color: #000;
+  color: #fff;
   font-weight: 600;
   text-align: center;
   margin-bottom: 35px;
@@ -162,4 +163,35 @@
 
 .BG {
   background: var(--color-bcg);
+}
+
+.btnFourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#fourth,
+#about {
+  background: #fdf3d4;
+  padding: 25px;
+}
+
+.imgFourth {
+  width: 80px;
+  height: 82.143px;
+}
+
+.downloadP {
+  color: #f55f45;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 128.6%; /* 36.008px */
+  letter-spacing: 1.12px;
 }

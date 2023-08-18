@@ -3,7 +3,7 @@
   padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
-  display: none;
+  // display: none;
 
   @media screen and (min-width: 1280px) {
     width: 1200px;
@@ -28,6 +28,10 @@
 
 .containerMainSecond {
   composes: containerMain;
+  border-radius: 24px;
+  background: linear-gradient(3deg, #ed3749 0%, #fa793f 60.84%, #f7f651 100%);
+  width: 343px;
+  height: 600px;
 
   @media screen and (min-width: 1280px) {
     display: flex;
@@ -39,6 +43,14 @@
 
 .containerMainFourth {
   composes: containerMain;
+
+  width: 343px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #f7f5f9;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+  padding: 30px;
 
   @media screen and (min-width: 1280px) {
     display: grid;

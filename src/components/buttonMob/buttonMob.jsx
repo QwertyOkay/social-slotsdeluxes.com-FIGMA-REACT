@@ -20,11 +20,9 @@ const Burger = () => {
       </button>
       {isOpen && (
         <div className={styles.burgerDropdown}>
-          {/* Здесь вы можете разместить пункты меню */}
-          <a href="#">Главная</a>
-          <a href="#">О нас</a>
-          <a href="#">Услуги</a>
-          {/* Добавьте нужные пункты меню */}
+          <a href="#welcome">Welcome</a>
+          <a href="#slots">Our slots</a>
+          <a href="#download">Download</a>
         </div>
       )}
     </div>
