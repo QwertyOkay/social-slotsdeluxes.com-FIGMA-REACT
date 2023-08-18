@@ -62,4 +62,7 @@
 .burgerMenu {
   padding: 15px;
   background: transparent;
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
 }
