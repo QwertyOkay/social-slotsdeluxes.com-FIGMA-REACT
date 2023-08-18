@@ -4,15 +4,15 @@ import thirdImage from 'images/third.png';
 import thirdImageMobile from 'images/thirdMobile.png';
 // import thirdImageMobile1 from 'images/thirdMobile1.png';
 import styles from './homePageSections.module.scss';
-import GoogleButton from 'components/googleButton/GoogleButton';
+// import GoogleButton from 'components/googleButton/GoogleButton';
 
 function Third() {
   return (
     <Section variant="third" id="download">
       <Container variant="containerMain">
         <div className={styles.textWrapThird}>
-          <h1 className={styles.title}>Download slots</h1>
-          <p className={styles.text2}>
+          <h1 className={styles.title2}>Download slots</h1>
+          <p className={styles.text3}>
             Our application works well for everyone, regardless of your skill
             level. By using our mobile app, you can stay connected to the
             market. Whether you're new to slot games or you've been playing for
