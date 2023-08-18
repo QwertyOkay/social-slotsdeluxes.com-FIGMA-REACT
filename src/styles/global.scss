@@ -31,6 +31,10 @@ body {
   color: var(--color-dark);
   background-image: url(../images/bg.png);
   background-size: contain;
+
+  @media screen and (min-width: 1200px) {
+    background-color: var(--color-bcg);
+  }
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
