@@ -7,12 +7,15 @@ function AgeModal({ showAgeModal }) {
     <Modal variant="ageModal" closeModal={() => showAgeModal(true)}>
       <div className={styles.text}>
         <p>
-          Please keep in mind that our website is solely dedicated to providing
-          enjoyable social games for recreational purposes. We strictly prohibit
-          any form of real-money gambling or betting. Our content is intended
-          for people over the age of 18.
+          Welcome to our world! Your happiness is our priority, and we're
+          excited to have you here. We're all about ensuring you have a great
+          time. Just to be clear, our website is all about fun social games for
+          leisure. We're strictly against any real money bets or gambling. Our
+          content is meant for those who are 18 years or older.
         </p>
-        <p>Do you want to learn more about our extensive range of services?</p>
+        <p>
+          Want to know more about the awesome things we have in store for you?
+        </p>
       </div>
       <div className={styles.buttons}>
         <Button title={'YES'} onClick={() => showAgeModal(false)}></Button>
