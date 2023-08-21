@@ -22,12 +22,12 @@ function Second() {
             <source
               srcSet={secondImage}
               type="image/png"
-              media="(min-width: 1280px)"
+              media="(min-width: 1200px)"
             />
             <source
               srcSet={secondImageMobile}
               type="image/png"
-              media="(max-width: 1279px)"
+              media="(max-width: 1200px)"
             />
             <img src={secondImage} alt="The Game" />
           </picture>
