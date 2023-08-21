@@ -25,7 +25,7 @@ function Second() {
               media="(min-width: 1200px)"
             />
             <source
-              srcSet={secondImageMobile}
+              srcSet={secondImage}
               type="image/png"
               media="(max-width: 1200px)"
             />
