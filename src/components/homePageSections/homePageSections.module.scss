@@ -24,11 +24,16 @@
   font-weight: 600;
   font-size: 38px;
   line-height: 130%;
-  color: #000;
+  color: #f55f45;
   text-align: center;
   @media screen and (min-width: 1280px) {
     position: inherit;
     margin-top: 0px;
+    color: #f55f45;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
   }
 }
 
@@ -69,9 +74,9 @@
 }
 
 .textWrapThird {
-  @media screen and (min-width: 1280px) {
-    max-width: 490px;
-    padding: 121px 0;
+  @media screen and (min-width: 1200px) {
+    max-width: 770px;
+    padding: 120px 0 30px;
   }
 
   @media screen and (min-width: 1920px) {
@@ -125,11 +130,13 @@
   text-align: center;
   margin-bottom: 35px;
 
-  @media screen and (min-width: 1280px) {
-    font-size: 18px;
-    width: 505px;
+  @media screen and (min-width: 1200px) {
+    color: #000;
     text-align: center;
-    // text-align: justify;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
   }
 }
 
@@ -229,6 +236,8 @@
 .imgThird {
   @media screen and (min-width: 1200px) {
     max-width: 525px;
+    width: 510.924px;
+    height: 393.496px;
   }
 }
 

@@ -41,7 +41,7 @@
     align-items: center;
     gap: 50px;
     width: 1045px;
-    height: auto;
+    height: 635px;
     border-radius: 40px;
     background: linear-gradient(
       181deg,
@@ -52,6 +52,15 @@
     overflow: hidden;
     padding: 74px 119px;
     padding-bottom: 0px;
+  }
+}
+
+.containerMainThird {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
 

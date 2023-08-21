@@ -9,7 +9,7 @@ import styles from './homePageSections.module.scss';
 function Third() {
   return (
     <Section variant="third" id="download">
-      <Container variant="containerMain">
+      <Container variant="containerMainThird">
         <div className={styles.textWrapThird}>
           <h1 className={styles.title2}>Download slots</h1>
           <p className={styles.text3}>
