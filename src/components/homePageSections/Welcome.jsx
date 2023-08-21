@@ -2,6 +2,7 @@ import Section from 'components/section/Section';
 import Container from 'components/container/Container';
 import GoogleButton from 'components/googleButton/GoogleButton';
 import firstImage from 'images/first.png';
+import firstDesk from 'images/firstDesk.png';
 import styles from './homePageSections.module.scss';
 
 function Welcome() {
@@ -16,13 +17,25 @@ function Welcome() {
             is like a piece of art, created to captivate your senses and keep
             you eagerly anticipating every moment.
           </p>
-          <div className={styles.btn}>
+          <div className={styles.btn2}>
             <GoogleButton />
           </div>
         </div>
 
         <div className={styles.imgWrap}>
-          <img src={firstImage} alt="Game1" />
+          <picture>
+            <source
+              srcSet={firstDesk}
+              type="image/png"
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcSet={firstImage}
+              type="image/png"
+              media="(max-width: 1200px)"
+            />
+            <img src={firstImage} alt="The Game" />
+          </picture>
         </div>
       </Container>
     </Section>

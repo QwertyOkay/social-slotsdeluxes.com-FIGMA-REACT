@@ -9,9 +9,11 @@
   color: #fff;
   text-align: center;
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     position: inherit;
     margin-top: 0px;
+    text-align: left;
+    color: #f55f45;
     // width: 1px;
     // height: 1px;
     // margin: -1px;
@@ -44,13 +46,14 @@
 }
 
 .textWrap {
-  @media screen and (min-width: 1280px) {
-    width: 100%;
+  @media screen and (min-width: 1200px) {
+    // width: 100%;
     padding: 25px 0px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // flex-direction: column;
+    display: block;
   }
 }
 
@@ -84,11 +87,12 @@
   font-weight: 600;
   text-align: center;
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     font-size: 18px;
     width: 505px;
-    text-align: center;
+    text-align: left;
     color: #000;
+    font-weight: 400;
     // text-align: justify;
   }
 }
@@ -132,16 +136,30 @@
   align-items: center;
 }
 
+.btn2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (min-width: 1200px) {
+    justify-content: flex-start;
+  }
+}
+
 .imgWrap {
   max-width: 380px;
 
-  @media screen and (max-width: 1279px) {
+  @media screen and (max-width: 1200px) {
     margin: 0 auto;
     padding: 0 16px;
   }
 
-  @media screen and (min-width: 1280px) {
-    margin: 0 auto;
+  @media screen and (min-width: 1200px) {
+    // margin: 0 auto;
+    max-width: 663px;
+    width: 650px;
+    height: 715px;
   }
 }
 
