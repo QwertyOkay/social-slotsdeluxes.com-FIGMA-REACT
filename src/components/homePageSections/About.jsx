@@ -2,9 +2,10 @@ import Section from 'components/section/Section';
 import Container from 'components/container/Container';
 import thirdImage from 'images/third.png';
 import thirdImageMobile from 'images/thirdMobile.png';
+import fourthImage from 'images/fourth.png';
 // import thirdImageMobile1 from 'images/thirdMobile1.png';
 import styles from './homePageSections.module.scss';
-// import GoogleButton from 'components/googleButton/GoogleButton';
+import GoogleButton from 'components/googleButton/GoogleButton';
 
 function Third() {
   return (
@@ -38,6 +39,17 @@ function Third() {
             <img className={styles.imgThird} src={thirdImage} alt="The Game" />
           </picture>
         </div>
+        <Container variant="containerMainFourth">
+          <div className={styles.btnFourth}>
+            <img
+              className={styles.imgFourth}
+              src={fourthImage}
+              alt="The Game"
+            />
+            <p className={styles.downloadP}>What are you waiting for?</p>
+            <GoogleButton />
+          </div>
+        </Container>
       </Container>
     </Section>
   );

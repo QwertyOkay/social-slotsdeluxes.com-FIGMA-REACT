@@ -10,7 +10,7 @@ import Footer from 'components/footer';
 import Welcome from 'components/homePageSections/Welcome';
 import Slots from 'components/homePageSections/Slots';
 import About from 'components/homePageSections/About';
-import Download from 'components/homePageSections/Download';
+// import Download from 'components/homePageSections/Download';
 
 const App = () => {
   const [isOpenStop, setIsOpenStop] = useState(true);
@@ -25,7 +25,7 @@ const App = () => {
         <Welcome />
         <Slots />
         <About />
-        <Download />
+        {/* <Download /> */}
       </main>
 
       <Footer />
