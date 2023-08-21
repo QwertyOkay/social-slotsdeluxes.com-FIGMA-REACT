@@ -84,6 +84,18 @@
   color: #f8f5ed;
   font-size: 16px;
   font-weight: 400;
+
+  @media screen and (min-width: 1200px) {
+    color: #f8f5ed;
+    font-size: 16px;
+    color: #f8f5ed;
+    text-align: center;
+    /* font-family: Spartan; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+  }
 }
 
 .footerFont {

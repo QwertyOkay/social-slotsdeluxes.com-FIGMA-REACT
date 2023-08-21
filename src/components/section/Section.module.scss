@@ -12,12 +12,12 @@
 
 .third {
   composes: section;
-  background: var(--color-bcg);
+  background-image: url(../../images/bgDownload.png);
+  padding-bottom: 25px;
 
-  // @media screen and (max-width: 1279px) {
-  //   padding: 60px 0 60px 0;
-  //   background: var(--color-bcg);
-  // }
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 130px;
+  }
 }
 
 .second {

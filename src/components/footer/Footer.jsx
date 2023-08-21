@@ -35,9 +35,7 @@ function Footer() {
               success in "real money gambling."
             </p>
           </div>
-          <div>
-            <Social />
-          </div>
+
           <div>
             <ul className={styles.footerLinks}>
               <li className={styles.link}>
@@ -56,6 +54,9 @@ function Footer() {
                 </button>
               </li>
             </ul>
+          </div>
+          <div>
+            <Social />
           </div>
           <div className={styles.footerFont}>
             <small>
