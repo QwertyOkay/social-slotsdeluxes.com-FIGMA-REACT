@@ -34,6 +34,8 @@ body {
 
   @media screen and (min-width: 1200px) {
     background-color: var(--color-bcg);
+    background-image: url(../images/bgDesk.png);
+    background-position: bottom;
   }
 }
 code {

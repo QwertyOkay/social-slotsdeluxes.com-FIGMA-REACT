@@ -1,12 +1,12 @@
 @import 'styles/vars';
 
-.header {
-  background-color: #50806b;
-  font-family: 'Poppins', sans-serif;
-}
+// .header {
+//   background-color: #50806b;
+//   font-family: 'Poppins', sans-serif;
+// }
 
 .navBlock {
-  min-height: 70px;
+  min-height: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,14 +15,31 @@
 
   @media screen and (min-width: 1280px) {
     column-gap: 50px;
+    display: flex;
+    justify-content: flex-end;
   }
 }
 
 .link {
   display: inline-block;
-  color: #ccff33;
+  color: #fff;
   font-size: 14px;
   text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.linkPlay {
+  width: 147px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 52px;
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .notice {

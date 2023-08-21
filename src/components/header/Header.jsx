@@ -18,6 +18,13 @@ function Header() {
             <a href="#download" className={styles.link}>
               Download
             </a>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.games.slots.pharaoh"
+              className={styles.linkPlay}
+              target="blank"
+            >
+              PLAY NOW
+            </a>
           </nav>
         </Container>
       </header>
