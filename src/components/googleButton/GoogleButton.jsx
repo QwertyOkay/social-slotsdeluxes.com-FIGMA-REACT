@@ -129,7 +129,7 @@ const GooglePlayStoreIcon = () => (
 function GoogleButton() {
   return (
     <a
-      href="https://play.google.com/store/apps/details?id=com.games.slots.pharaoh"
+      href="https://play.google.com/store/apps/details?id=com.games.lightningslots"
       target="_blank"
       rel="noreferrer"
       className={styles.googleLink}
