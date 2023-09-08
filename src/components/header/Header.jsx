@@ -19,7 +19,7 @@ function Header() {
               Download
             </a>
             <a
-              href="https://play.google.com/store/apps/details?id=com.games.slots.pharaoh"
+              href="https://play.google.com/store/apps/details?id=com.games.lightningslots"
               className={styles.linkPlay}
               target="blank"
             >
